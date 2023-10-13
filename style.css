@@ -1,0 +1,145 @@
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the header */
+header {
+    color: #fff;
+    padding: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:  #193f97;
+    width: 1000px;
+    margin-left: 500px;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin-left: -450px
+}
+
+nav li {
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+/* Apply styles to the main content */
+main {
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    background-color:  #193f97;
+    width: 1000px;
+    margin-left: 500px;
+}
+.left-align {
+    text-align: left;
+    margin-top: 20px;
+  }
+
+.left-content {
+    width: 100px;
+    flex: 180px;
+    text-align: center;
+    background-color: #193f97;
+    color: #fff;
+    padding: 20px;
+    margin-left: 170px;
+
+}
+.start-container{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.right-content {
+    width: 400px; /* Set a fixed width */
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #fff;
+    border-radius: 15px;
+   margin: 100px;
+   margin-top: 20px;
+   margin-left: 180px;
+
+}
+
+/* Add a max-width to limit the width of the .signup-card */
+.right-content .signup-card {
+    max-width: 100%; /* Limit .signup-card width to its parent's width */
+    width: 400;
+    text-align: center;
+    padding: 20px;
+
+}
+
+/* Style the input fields */
+.input-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Adjust the checkbox label and spacing */
+.checkbox-label {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.checkbox {
+    margin-right: 10px;
+}
+
+.rounded-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    background-color: #fff;
+}
+
+.rounded-button {
+    width: 100%;
+    background-color: rgb(8, 8, 167);
+    color: #fff;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.separator {
+    margin: 10px 0;
+}
+
+.login-link {
+    margin-top: 20px;
+}
+
+.horizontal-list {
+    list-style: none;
+    padding: 0;
+}
+
+.horizontal-list li {
+    display: inline; /* Display list items inline */
+    margin-right: 10px; /* Add some spacing between items */
+}
